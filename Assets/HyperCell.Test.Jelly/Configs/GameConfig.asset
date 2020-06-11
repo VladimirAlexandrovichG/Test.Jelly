@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f7f88c7b74cf99aa847918f25e156, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  jellyPrefab: {fileID: 5429513846472645766, guid: 21c36f5741b300b45b744bf5d9c526e2,
+    type: 3}
+  jellyInitPosition: {x: 0, y: 1.3, z: 0}
+  levels:
+  - {fileID: 6319485558557229710, guid: 39aed49c220ed234ba68a80419b7f031, type: 3}
+  - {fileID: 6319485558557229710, guid: 2340a251a2bb6be44b5ff181d86bb755, type: 3}
+  levelInitPosition: {x: 0, y: 0, z: 0}
+  startLevel: 0
+  levelPrefsKey: level
+  moveConfig:
+    maxSpeed: 40
+    moveForce: 100000
+  obstacleBounceConfig:
+    bounceDistance: 7
+    bouncePower: 1.5
+    bounceStateDuration: 0.35
+  collisionObstacleOfJellyConfig:
+    obstacleMass: 100
+    forceFrom: 10000
+    forceTo: 40000
+  projectionConfig:
+    maxDistance: 100
+    obstacleViewMask:
+      serializedVersion: 2
+      m_Bits: 512
+  resizerConfig:
+    minScale: 0.5
+    maxScale: 2
+  cameraMoveConfig:
+    menuStatePosition: {x: 20, y: 11, z: -7}
+    menuStateRotation: {x: 19, y: -40, z: 0}
+    gameStatePosition: {x: 7, y: 9, z: 0}
+    gameStateRotation: {x: 5, y: -9, z: 0}
+    winStatePosition: {x: 24, y: 11, z: 75}
+    winStateRotation: {x: 19, y: -142, z: 0}
+    moveToGameStateDuration: 1.5
+    moveToWinStateDuration: 5
+    distance: 36.6
